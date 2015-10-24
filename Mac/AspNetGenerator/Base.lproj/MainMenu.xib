@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="AspNetGenerator" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCreateNewFile" destination="nxo-z7-TGz" id="CY3-4r-4Be"/>
+                <outlet property="btnQuit" destination="Zap-7k-L42" id="KUL-8o-unn"/>
+                <outlet property="statusMenu" destination="lM9-j2-Db5" id="zd0-HO-VGl"/>
+            </connections>
+        </customObject>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu id="lM9-j2-Db5">
+            <items>
+                <menuItem title="Create a new file" keyEquivalent="N" id="nxo-z7-TGz">
+                    <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
+                    <connections>
+                        <action selector="btnCreateNewFileClicked:" target="Voe-Tx-rLC" id="L8k-fg-rBk"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Create a new project" keyEquivalent="n" id="C6H-CY-OH9">
+                    <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="Sd8-yc-8LT"/>
+                <menuItem title="Check updates" id="RPE-gU-pOE">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="aPZ-0H-lpQ"/>
+                <menuItem title="Quit" id="Zap-7k-L42">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="btnQuitClicked:" target="Voe-Tx-rLC" id="6cA-2t-a0a"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="450" y="470.5"/>
+        </menu>
+    </objects>
+</document>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="CollectionCell" customModule="AspNetGenerator" customModuleProvider="target">
+            <connections>
+                <outlet property="imgIcon" destination="dnl-cW-kXs" id="wAv-8v-EUm"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="164"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dnl-cW-kXs">
+                    <rect key="frame" x="0.0" y="44" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="0oU-PB-Gg4"/>
+                    </constraints>
+                    <animations/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="fm2-Jh-UO6"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1d8-zg-hNj">
+                    <rect key="frame" x="-2" y="0.0" width="124" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="POb-l5-kmx"/>
+                    </constraints>
+                    <animations/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="pVY-4N-gXP">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="1d8-zg-hNj" secondAttribute="trailing" id="Fuu-v5-C18"/>
+                <constraint firstItem="dnl-cW-kXs" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="I3A-0I-QwA"/>
+                <constraint firstAttribute="trailing" secondItem="dnl-cW-kXs" secondAttribute="trailing" id="Ker-GZ-juD"/>
+                <constraint firstItem="1d8-zg-hNj" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="aax-pL-YoN"/>
+                <constraint firstAttribute="bottom" secondItem="1d8-zg-hNj" secondAttribute="bottom" id="fME-kn-JZ4"/>
+                <constraint firstItem="dnl-cW-kXs" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="s7c-0G-ehh"/>
+            </constraints>
+            <animations/>
+            <point key="canvasLocation" x="408" y="393"/>
+        </customView>
+    </objects>
+</document>
