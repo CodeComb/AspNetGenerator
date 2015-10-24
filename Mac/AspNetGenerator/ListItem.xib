@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="vEE-fH-S2n" customClass="ListItem" customModule="AspNetGenerator">
+            <rect key="frame" x="0.0" y="0.0" width="347" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="edt-X8-v0a">
+                    <rect key="frame" x="56" y="12" width="205" height="17"/>
+                    <animations/>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="w8O-fK-NWG">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="338-OX-hFv">
+                    <rect key="frame" x="265" y="12" width="74" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="eCj-Df-CJF"/>
+                    </constraints>
+                    <animations/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Label" id="POj-R7-1lm">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F4g-XD-Wb4">
+                    <rect key="frame" x="10" y="0.0" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Dz8-Be-3Ka"/>
+                        <constraint firstAttribute="height" constant="40" id="u39-Tn-BHk"/>
+                    </constraints>
+                    <animations/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="ULJ-4N-Sgi"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="F4g-XD-Wb4" firstAttribute="leading" secondItem="vEE-fH-S2n" secondAttribute="leading" constant="10" id="3UU-0P-vYJ"/>
+                <constraint firstItem="338-OX-hFv" firstAttribute="leading" secondItem="edt-X8-v0a" secondAttribute="trailing" constant="8" id="KxQ-kO-PMb"/>
+                <constraint firstItem="edt-X8-v0a" firstAttribute="leading" secondItem="F4g-XD-Wb4" secondAttribute="trailing" constant="8" id="WLI-ht-rQN"/>
+                <constraint firstItem="F4g-XD-Wb4" firstAttribute="top" secondItem="vEE-fH-S2n" secondAttribute="top" id="Zhl-9s-RVv"/>
+                <constraint firstItem="338-OX-hFv" firstAttribute="centerY" secondItem="vEE-fH-S2n" secondAttribute="centerY" id="Zz7-4N-UvP"/>
+                <constraint firstAttribute="trailing" secondItem="338-OX-hFv" secondAttribute="trailing" constant="10" id="kb5-ea-ivE"/>
+                <constraint firstItem="edt-X8-v0a" firstAttribute="centerY" secondItem="vEE-fH-S2n" secondAttribute="centerY" id="tZu-pQ-EKg"/>
+            </constraints>
+            <animations/>
+            <connections>
+                <outlet property="imgIcon" destination="F4g-XD-Wb4" id="SzS-Z6-b0n"/>
+                <outlet property="lbFileType" destination="edt-X8-v0a" id="Vu7-jh-BMU"/>
+                <outlet property="lbType" destination="338-OX-hFv" id="SJc-U9-MhQ"/>
+                <outlet property="textField" destination="edt-X8-v0a" id="itU-HZ-415"/>
+            </connections>
+        </tableCellView>
+    </objects>
+</document>

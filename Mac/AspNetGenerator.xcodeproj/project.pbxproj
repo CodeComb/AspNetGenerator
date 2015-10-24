@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F38E8941BDB381A008FB074 /* CreateFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F38E8921BDB381A008FB074 /* CreateFile.swift */; settings = {ASSET_TAGS = (); }; };
+		2F38E8951BDB381A008FB074 /* CreateFile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F38E8931BDB381A008FB074 /* CreateFile.xib */; settings = {ASSET_TAGS = (); }; };
+		2F38E8991BDB4BA7008FB074 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F38E8981BDB4BA7008FB074 /* ListItem.swift */; settings = {ASSET_TAGS = (); }; };
 		2F91E8911BD9F26200E900C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F91E8901BD9F26200E900C2 /* AppDelegate.swift */; };
 		2F91E8931BD9F26200E900C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F91E8921BD9F26200E900C2 /* Assets.xcassets */; };
-		2F91E8961BD9F26200E900C2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F91E8941BD9F26200E900C2 /* MainMenu.xib */; };
 		2F91E8A11BD9F26200E900C2 /* AspNetGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F91E8A01BD9F26200E900C2 /* AspNetGeneratorTests.swift */; };
 		2F91E8AC1BD9F26200E900C2 /* AspNetGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F91E8AB1BD9F26200E900C2 /* AspNetGeneratorUITests.swift */; };
 		2F91E8C11BDB103000E900C2 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F91E8BF1BDB103000E900C2 /* CollectionCell.swift */; settings = {ASSET_TAGS = (); }; };
 		2F91E8C21BDB103000E900C2 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F91E8C01BDB103000E900C2 /* CollectionCell.xib */; settings = {ASSET_TAGS = (); }; };
-		2F91E8C51BDB1B6200E900C2 /* CreateFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F91E8C31BDB1B6200E900C2 /* CreateFile.swift */; settings = {ASSET_TAGS = (); }; };
-		2F91E8D01BDB235000E900C2 /* CreateFile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F91E8CF1BDB235000E900C2 /* CreateFile.xib */; settings = {ASSET_TAGS = (); }; };
+		2F91E8D21BDB2BBC00E900C2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F91E8D11BDB2BBC00E900C2 /* MainMenu.xib */; settings = {ASSET_TAGS = (); }; };
+		2FC06AD71BDB4E3500471C13 /* ListItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FC06AD61BDB4E3500471C13 /* ListItem.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F38E8921BDB381A008FB074 /* CreateFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFile.swift; sourceTree = "<group>"; };
+		2F38E8931BDB381A008FB074 /* CreateFile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateFile.xib; sourceTree = "<group>"; };
+		2F38E8981BDB4BA7008FB074 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		2F91E88D1BD9F26200E900C2 /* AspNetGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AspNetGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F91E8901BD9F26200E900C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F91E8921BD9F26200E900C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2F91E8951BD9F26200E900C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2F91E8971BD9F26200E900C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F91E89C1BD9F26200E900C2 /* AspNetGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspNetGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F91E8A01BD9F26200E900C2 /* AspNetGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspNetGeneratorTests.swift; sourceTree = "<group>"; };
@@ -49,8 +53,8 @@
 		2F91E8AD1BD9F26200E900C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F91E8BF1BDB103000E900C2 /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		2F91E8C01BDB103000E900C2 /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
-		2F91E8C31BDB1B6200E900C2 /* CreateFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFile.swift; sourceTree = "<group>"; };
-		2F91E8CF1BDB235000E900C2 /* CreateFile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateFile.xib; sourceTree = "<group>"; };
+		2F91E8D11BDB2BBC00E900C2 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		2FC06AD61BDB4E3500471C13 /* ListItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				2F91E8901BD9F26200E900C2 /* AppDelegate.swift */,
+				2F91E8D11BDB2BBC00E900C2 /* MainMenu.xib */,
 				2F91E8921BD9F26200E900C2 /* Assets.xcassets */,
-				2F91E8941BD9F26200E900C2 /* MainMenu.xib */,
 				2F91E8971BD9F26200E900C2 /* Info.plist */,
 				2F91E8BF1BDB103000E900C2 /* CollectionCell.swift */,
 				2F91E8C01BDB103000E900C2 /* CollectionCell.xib */,
-				2F91E8CF1BDB235000E900C2 /* CreateFile.xib */,
-				2F91E8C31BDB1B6200E900C2 /* CreateFile.swift */,
+				2F38E8921BDB381A008FB074 /* CreateFile.swift */,
+				2F38E8931BDB381A008FB074 /* CreateFile.xib */,
+				2F38E8981BDB4BA7008FB074 /* ListItem.swift */,
+				2FC06AD61BDB4E3500471C13 /* ListItem.xib */,
 			);
 			path = AspNetGenerator;
 			sourceTree = "<group>";
@@ -236,9 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F91E8931BD9F26200E900C2 /* Assets.xcassets in Resources */,
-				2F91E8961BD9F26200E900C2 /* MainMenu.xib in Resources */,
 				2F91E8C21BDB103000E900C2 /* CollectionCell.xib in Resources */,
-				2F91E8D01BDB235000E900C2 /* CreateFile.xib in Resources */,
+				2F91E8D21BDB2BBC00E900C2 /* MainMenu.xib in Resources */,
+				2FC06AD71BDB4E3500471C13 /* ListItem.xib in Resources */,
+				2F38E8951BDB381A008FB074 /* CreateFile.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F38E8991BDB4BA7008FB074 /* ListItem.swift in Sources */,
 				2F91E8911BD9F26200E900C2 /* AppDelegate.swift in Sources */,
-				2F91E8C51BDB1B6200E900C2 /* CreateFile.swift in Sources */,
+				2F38E8941BDB381A008FB074 /* CreateFile.swift in Sources */,
 				2F91E8C11BDB103000E900C2 /* CollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,17 +307,6 @@
 			targetProxy = 2F91E8A81BD9F26200E900C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2F91E8941BD9F26200E900C2 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F91E8951BD9F26200E900C2 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2F91E8AE1BD9F26200E900C2 /* Debug */ = {
@@ -489,6 +486,7 @@
 				2F91E8B21BD9F26200E900C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F91E8B31BD9F26200E900C2 /* Build configuration list for PBXNativeTarget "AspNetGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +495,7 @@
 				2F91E8B51BD9F26200E900C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F91E8B61BD9F26200E900C2 /* Build configuration list for PBXNativeTarget "AspNetGeneratorUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +504,7 @@
 				2F91E8B81BD9F26200E900C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

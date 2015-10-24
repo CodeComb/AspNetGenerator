@@ -8,16 +8,16 @@
 
 import Cocoa
 
-class CreateFile: NSWindowController, NSWindowDelegate {
-
+class CreateFile: NSWindowController {
+    
+    @IBOutlet weak var lstTypes: NSOutlineView!
+    @IBOutlet weak var lstFileTypes: NSTableView!
     override var windowNibName : String! {
         return "CreateFile"
     }
     
     override func windowDidLoad() {
         super.windowDidLoad()
-        self.window?.center()
-        self.window?.makeKeyAndOrderFront(nil)
-        NSApp.activateIgnoringOtherApps(true)
     }
+    
 }
